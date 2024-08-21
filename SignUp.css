@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.Container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0px auto;
+    padding-bottom: 130px;
+}
+.header{
+    text-align: center;
+    margin-top: 40px;
+}
+.header svg{
+    width: 30%;
+}
+.Title h2
+{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 1.55rem;
+    line-height: 28px;
+}
+.Facebook-Button button
+{
+    width: 95%;
+    border-radius: 40px;
+    font-size: 1.0rem;
+    padding: 3%;
+    background-color: #405A93;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.33s;
+}
+.Facebook-Button i
+{
+    margin-right: 4%;
+    font-size: 1.50rem;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Facebook-Button button:hover
+{
+    background-color: #314571;
+}
+.Google-Button button
+{
+    width: 95%;
+    border-radius: 40px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: white;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.Google-Button span
+{
+    font-size: 1.08rem;
+    color: #535353;
+}
+.Google-Button i
+{
+    margin-right: 4%;
+    font-size: 1.50rem;
+}
+.Google-Button .logo
+{
+    margin-right: 4%;
+    font-size: 1.50rem;
+}
+
+.Separate
+{
+    margin-top: 2%;
+    color: rgb(109, 109, 109);
+}
+.Separate span::before
+{
+    display: inline-block;
+    top: -0.2em;
+    content: "";
+    width: 12vw;
+    color: black;
+    border: solid 1px rgb(204, 204, 204);
+    position: relative;
+    margin-right: 20px;
+}
+.Separate span::after
+{
+    display: inline-block;
+    top: -0.2em;
+    position: relative;
+    content: "";
+    width: 12vw;
+    color: black;
+    border: solid 1px rgb(204, 204, 204);
+    margin-left: 20px;
+}
+.Title-2
+{
+    margin-top: 1.4%;
+}
+.Title-2 span
+{
+    font-weight: 700;
+    font-size: 0.99rem;
+}
+form
+{
+    width: 100%;
+    margin-top: 2%;
+}
+.Email span{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 1.5%;
+    font-size: 0.88rem;
+}
+.Email input {
+    width: 100%;
+    padding: 8px 14px;
+    font-size: 0.90rem;
+    font-weight: 400;
+    border: 1.4px solid rgb(201, 201, 201);
+    transition: border 0.50s; 
+    border-radius: 5px;
+}
+
+.Email input:hover {
+    border: 1.4px solid black;
+}
+
+.Password span{
+    display: block;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-bottom: 1.5%;
+    font-size: 0.88rem;
+}
+.Password input {
+    width: 100%;
+    padding: 8px 14px;
+    font-size: 0.90rem;
+    font-weight: 400;
+    border: 1.4px solid rgb(201, 201, 201);
+    transition: border 0.50s; 
+    border-radius: 5px;
+}
+
+.Password input:hover {
+    border: 1.4px solid black;
+}
+.Name span{
+    display: block;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-bottom: 1.5%;
+    font-size: 0.88rem;
+}
+.Name input {
+    width: 100%;
+    padding: 0.5rem 14px;
+    font-size: 0.90rem;
+    font-weight: 400;
+    border: 1.4px solid rgb(201, 201, 201);
+    transition: border 0.50s; 
+    border-radius: 5px;
+}
+
+.Name input:hover {
+    border: 1.4px solid black;
+}
+.Name p
+{
+    display: block;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    font-size: 0.77rem;
+}
+.DOB{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    align-items: center;
+}
+.DOB-Header
+{
+    display: block;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-bottom: 1.5%;
+    font-size: 0.88rem;
+}
+.Month span
+{
+    font-size: 0.85rem;
+    
+}
+.Selection
+{
+    display: block;
+    width: 180px;
+    padding: 8px 44px 11px 14px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 2%;
+    border: 1.4px solid rgb(201, 201, 201);
+}
+.Day
+{
+    width: 15%;
+}
+.Day span
+{
+    font-size: 0.85rem;
+}
+.Day input
+{
+    display: block;
+    width: 100%;
+    padding: 8px 14px;
+    font-size: 1rem;
+    margin-top: 4%;
+    border-radius: 5px;
+    border: 1.4px solid rgb(201, 201, 201);
+}
+.Year
+{
+    width: 157px;
+}
+.Year span
+{
+    font-size: 0.85rem;
+}
+.Year input
+{
+    display: block;
+    width: 100%;
+    padding: 8px 14px;
+    font-size: 1rem;
+    margin-top: 4%;
+    border-radius: 5px;
+    border: 1.4px solid rgb(201, 201, 201);
+}
+.Gender-Header
+{
+    display: block;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-bottom: 1.5%;
+    font-size: 0.88rem;
+}
+.Gender
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    row-gap: 10px;
+    margin-top: 3%;
+}
+.Gender label
+{
+    padding: 0px 24px 0px 12px;
+    font-size: 14px;
+}
+.Agreement
+{
+    display: flex;
+    margin-top: 8%;
+    width: 120%;
+    padding: 0px 0px 24px;
+}
+.label label
+{
+    display: flex;
+    padding: 0px 24px 0px 12px;
+    font-size: 0.875rem;
+}
+.input input
+{
+    block-size: 20px;
+}
+.Terms-Conditions, .Privacy
+{
+    font-size: 11px;
+    font-weight: 400;
+}
+.Last-Section
+{
+    text-align: center;
+    height: 30vh;
+}
+.Terms-Conditions a
+{
+    color: rgb(29, 185, 84);
+}
+.Privacy
+{
+    margin-top: 15px;
+}
+.Privacy a
+{
+    color: rgb(29, 185, 84);
+}
+.Sign-Up-Button 
+{
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+.Sign-Up-Button button
+{
+    padding: 12px 48px;
+    border-radius: 500px;
+    color: black;
+    border: none;
+    background-color: #1ed760;
+    font-weight: 700;
+    font-size: inherit;
+    cursor: pointer;
+    transition: 0s;
+    
+}
+.Sign-Up-Button button:hover
+{
+    background-color: #1fdf64;
+    padding: 14px 50px;
+    font-size: 17px;
+}
+.Log-in p
+{
+    padding: 0px 0px 12px;
+    font-size: 16px;
+}
+.Log-in a
+{
+    color: rgb(29, 185, 84);
+}

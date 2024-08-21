@@ -1,0 +1,237 @@
+*
+{
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav
+{
+    padding: 32px 0px 32px 51px;
+    background-color: rgb(0, 0, 0);
+}
+nav svg
+{
+    height: 36px;
+    text-align: left;
+    fill: white;
+}
+section
+{
+    background-color: rgb(26, 26, 26);
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+form
+{
+    background-color: black;
+    /* height: 100%; */
+    /* row-gap: normal; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 734px;
+    width: 100%;
+    /* row-gap: 30px; */
+}
+form hr
+{
+    width: 65%;
+    margin: 32px 100px;
+    border: 1px solid rgb(41,41,41);
+}
+.Title
+{
+    margin: 80px 0px 48px;
+}
+.Title span
+{
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+.Facebook-Button
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.Facebook-Button button
+{
+    width: 45%;
+    border-radius: 40px;
+    font-size: 1.0rem;
+    padding: 7px 31px;
+    background-color: black;
+    font-weight: 500;
+    border: solid 1px #727272;;
+    cursor: pointer;
+    color: white;
+    transition: 0.33s;
+    margin: 0px 0px 8px;
+}
+.Facebook-Button i
+{
+    margin-right: 10%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Facebook-Button button:hover
+{
+    background-color: #314571;
+}
+.Google-Button
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.Google-Button button
+{
+    width: 45%;
+    border-radius: 40px;
+    height: 100%;
+    font-size: 1.0rem;
+    padding: 7px 31px;
+    background-color: black;
+    font-weight: 500;
+    border: solid 1px #727272;;
+    cursor: pointer;
+    color: white;
+    transition: 0.45s;
+    margin: 0px 0px 8px;
+}
+.Google-Button span
+{
+    font-size: 1.08rem;
+}
+.Google-Button i
+{
+    margin-right: 10%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Google-Button button:hover
+{
+    /* background: linear-gradient(.25turn, red, 10%, blue); */
+    animation: spin 2s infinite;
+}
+@keyframes spin {
+    0%
+    {
+        border-color: red;
+        border-width: 2px;
+    }
+    100%
+    {
+        /* transform: rotate(360deg); */
+        border-color: green;
+    }
+}
+.Apple-Button
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.Apple-Button button
+{
+    width: 45%;
+    border-radius: 40px;
+    height: 100%;
+    font-size: 1.0rem;
+    padding: 7px 31px;
+    background-color: black;
+    font-weight: 500;
+    border: solid 1px #727272;;
+    cursor: pointer;
+    color: white;
+    transition: 0.33s;
+    margin: 0px 0px 8px;
+}
+.Apple-Button i
+{
+    margin-right: 10%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Apple-Button button:hover
+{
+    background-color: rgb(83, 83, 83);
+}
+.New_Inputs
+{
+    width: 324px;
+}
+.label
+{
+    margin-bottom: 2%;
+}
+.Password
+{
+    margin-top: 6%;
+    padding: 0px 0px 16px;
+}
+.label span
+{
+    font-size: 14px;
+}
+.input input
+{
+    padding: 8px 14px;
+    width: 100%;
+    background-color: #121212;
+    border: none;
+    box-shadow: inset 0 0 0 1px #727272;
+    border-radius: 4px;
+}
+.Toggle i 
+{
+    background-color: #1ed760;
+    border-radius: 11px;
+    block-size: 16px;
+    min-inline-size: 30px;
+}
+.Toggle span
+{
+    padding: 0px 24px 0px 12px;
+    font-size: 14px;
+}
+.Login-Button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 32px 0px;
+}
+.Login-Button button
+{
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 500px;
+    border: none;
+    background-color: #1ed760;
+    width: 100%;
+    cursor: pointer;
+}
